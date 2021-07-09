@@ -13,7 +13,10 @@ Los **Guerreros urbanos** son personas jóvenes y de mediana edad, con buen pode
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt erat massa, a ullamcorper neque mollis non. Proin ac facilisis nisi. Quisque eu tellus et dui aliquam dictum a nec leo. Morbi volutpat, ligula et ullamcorper tincidunt, metus lorem viverra augue, quis pellentesque metus sapien ut turpis. Donec ultrices tellus eros, sagittis ultrices augue fermentum vel. 
 
 ## Sergio Perin
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt erat massa, a ullamcorper neque mollis non. Proin ac facilisis nisi. Quisque eu tellus et dui aliquam dictum a nec leo. Morbi volutpat, ligula et ullamcorper tincidunt, metus lorem viverra augue, quis pellentesque metus sapien ut turpis. Donec ultrices tellus eros, sagittis ultrices augue fermentum vel. 
+Ingeniero Aeronáutico egresado de la Universidad Tecnológina Nacional (UTN) en 1985.
+Posgrado en Ingeniería de Sistemas egresado de la Universidad de Buenos Aires en 1990.
+Consultoria, analisis, desarrollo de sistemas para usuarios finales y/o desarrolladores.
+Lenguajes de programación: Assembler, PickBasic, C, VB, VB.Net, C#.Net desde 1986.
 
 ## Luciano De Palma
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt erat massa, a ullamcorper neque mollis non. Proin ac facilisis nisi. Quisque eu tellus et dui aliquam dictum a nec leo. Morbi volutpat, ligula et ullamcorper tincidunt, metus lorem viverra augue, quis pellentesque metus sapien ut turpis. Donec ultrices tellus eros, sagittis ultrices augue fermentum vel. 
