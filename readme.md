@@ -1,9 +1,9 @@
 # Bienvenidos al proyecto sportal
 
-El portal de compras de indumentaria deportiva para los **Guerreros urbanos** que saben lo que quieren y que necesitan lo mejor para sus entrenamientos y eventos competitivos.
-
-Los **Guerreros urbanos** son personas jóvenes y de mediana edad, con buen poder adquisitivo y una agenda cargada. Son personas informadas, con un nivel educativo de medio a alto. Pueden consumir para si mismos o comprar para un familiar directo para apoyarlo en su desarrollo deportivo o para hacer un regalo para una ocasión especial.
-
+El portal de compras de indumentaria deportiva para los **Guerreros urbanos** que saben lo que quieren y que necesitan lo mejor para sus entrenamientos y eventos competitivos.</br>
+Los **Guerreros urbanos** son personas jóvenes, de mediana edad, con buen poder adquisitivo y una agenda cargada.</br>
+Son personas informadas, con un nivel educativo de medio a alto.</br>
+Pueden consumir para si mismos o comprar para un familiar directo, para apoyarlo en su desarrollo deportivo o para hacer un regalo para una ocasión especial.
 
 
 **EQUIPO**
@@ -26,10 +26,14 @@ Es diseñador gráfico con años de experiencia profesional. Actualmente dirige 
 
 
 REFERENCIAS CONSULTADAS PARA EL PROYECTO
-- Lorem ipsum
-- Lorem ipsum
-- Lorem ipsum
-- Lorem ipsum
-- Lorem ipsum
-- Lorem ipsum
+- Adidas</br>
+- Nike</br>
+- Puma</br>
+- Asics</br>
+- Reebok</br>
+- New Balance</br>
+- Under Armour</br>
+- Fila</br>
+- Mizuno</br>
+- Topper
 
