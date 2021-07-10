@@ -12,7 +12,7 @@ Pueden consumir para si mismos o comprar para un familiar directo, para apoyarlo
 --------------------------
 
 ## Mariel Méndez
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt erat massa, a ullamcorper neque mollis non. Proin ac facilisis nisi. Quisque eu tellus et dui aliquam dictum a nec leo. Morbi volutpat, ligula et ullamcorper tincidunt, metus lorem viverra augue, quis pellentesque metus sapien ut turpis. Donec ultrices tellus eros, sagittis ultrices augue fermentum vel. 
+Es profesora de Historia egresada de la Universidad Nacional de Tres de Febrero, donde cursó también la licenciatura. Combina la labor docente con tareas de gestión cultural, contando con 10 años de experiencia en instituciones públicas como Museo Evita, Complejo Teatral de BsAs/Teatro San Martín y el Museo Histórico Nacional. 
 
 ## Sergio Perin
 Ingeniero Aeronáutico egresado de la Universidad Tecnológina Nacional (UTN) en 1985.</br>
