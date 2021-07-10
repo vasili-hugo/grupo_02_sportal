@@ -3,7 +3,7 @@
 # Bienvenidos al proyecto sportal
 
 El portal de compras de indumentaria deportiva para los **Guerreros urbanos** que saben lo que quieren y que necesitan lo mejor para sus entrenamientos y eventos competitivos.</br>
-Los **Guerreros urbanos** son personas jóvenes, de mediana edad, con buen poder adquisitivo y una agenda cargada.</br>
+Los **Guerreros urbanos** son personas jóvenes y de mediana edad, con buen poder adquisitivo y una agenda cargada.</br>
 Son personas informadas, con un nivel educativo de medio a alto.</br>
 Pueden consumir para si mismos o comprar para un familiar directo, para apoyarlo en su desarrollo deportivo o para hacer un regalo para una ocasión especial.
 
