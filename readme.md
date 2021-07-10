@@ -1,3 +1,5 @@
+![Logo](imgs/sportal_logo_000.png =46x42)
+
 # Bienvenidos al proyecto sportal
 
 El portal de compras de indumentaria deportiva para los **Guerreros urbanos** que saben lo que quieren y que necesitan lo mejor para sus entrenamientos y eventos competitivos.</br>
