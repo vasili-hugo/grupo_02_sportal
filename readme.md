@@ -26,11 +26,12 @@ Es diseñador gráfico con años de experiencia profesional. Actualmente dirige 
 
 
 REFERENCIAS CONSULTADAS PARA EL PROYECTO
-- Adidas</br>
-- Nike</br>
-- Puma</br>
-- Asics</br>
-- Reebok</br>
+- [Adidas](https://www.adidas.com.ar/) 
+- [Nike](https://www.nike.com/ar/) 
+- [Puma](https://us.puma.com/) 
+- [Asics](https://www.asics.com/es/es-es/) 
+- [Rebook](https://www.reebok.com/us) 
+
 - New Balance</br>
 - Under Armour</br>
 - Fila</br>
