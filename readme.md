@@ -21,7 +21,8 @@ Consultoria, analisis, desarrollo de sistemas para usuarios finales y/o desarrol
 Lenguajes de programación: Assembler, PickBasic, C, VB, VB.Net, C#.Net desde 1986.
 
 ## Luciano De Palma
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt erat massa, a ullamcorper neque mollis non. Proin ac facilisis nisi. Quisque eu tellus et dui aliquam dictum a nec leo. Morbi volutpat, ligula et ullamcorper tincidunt, metus lorem viverra augue, quis pellentesque metus sapien ut turpis. Donec ultrices tellus eros, sagittis ultrices augue fermentum vel. 
+Estudia ingeniería en computación en la Unviversidad de Tres de Febrero.
+Actualmente trabajando en atención al cliente en un comercio de indumentaria deportiva hace más de 10 años.
 
 ## Hugo Vasiliev
 Es diseñador gráfico con años de experiencia profesional. Actualmente dirige un equipo de diseñadores en un medio gráfico y se especializa en: **infografía** -  **análisis y procesamiento de datos** (científicos, económicos y espaciales) y en **visualización de información**.  También se desempeña cómo ilustrador 2d, 3d - motion graphics, fotógrafo y editor periodístico.
