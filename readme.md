@@ -29,6 +29,8 @@ Es diseñador gráfico con años de experiencia profesional. Actualmente dirige 
 
 
 REFERENCIAS CONSULTADAS PARA EL PROYECTO
+- [SoloDeportes](https://www.solodeportes.com.ar/) 
+- [OpenSports](https://www.opensports.com.ar/) 
 - [Adidas](https://www.adidas.com.ar/) 
 - [Nike](https://www.nike.com/ar/) 
 - [Puma](https://us.puma.com/) 
@@ -40,5 +42,7 @@ REFERENCIAS CONSULTADAS PARA EL PROYECTO
 - Fila</br>
 - Mizuno</br>
 - Topper
+- Gap
+
 
 
