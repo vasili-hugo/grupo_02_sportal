@@ -1,0 +1,25 @@
+{
+  "name": "grupo_02_sportal",
+  "version": "1.0.0",
+  "description": "![Logo](https://raw.githubusercontent.com/vasili-hugo/grupo_02_sportal/master/imgs/sportal_logo_000.png)",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasili-hugo/grupo_02_sportal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasili-hugo/grupo_02_sportal/issues"
+  },
+  "homepage": "https://github.com/vasili-hugo/grupo_02_sportal#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
