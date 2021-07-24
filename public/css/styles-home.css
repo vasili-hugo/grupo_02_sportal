@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  padding: 0;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(238, 228, 228);  
+  max-width: 375px;
+}
+/*
+========================================================================================================================
+HEADER
+========================================================================================================================
+*/
+.header-bar {
+  background-color: rgb(149, 28, 28);
+  width: 100%px;
+  height: 60px;
+}
+
+.header-circle {
+  background-color: rgb(149, 28, 28);
+  padding: 50px;
+  border-radius: 70px;
+  width: 70px;
+  margin-left: 0px;
+  margin-top: -50px;
+}
+
+.header-sportal-logo {
+  position: absolute;
+  margin-left: 14px;
+  margin-top: -95px;
+  width: 75px;
+}
+
+.header-login {
+   text-align: right;
+  margin-top: -90px;
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.header-search-box {
+  margin-left: 70px;
+  margin-top: 15px;
+  width: 260px;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid black;
+  position: relative;
+  z-index: -1;
+}
+
+.header-search-input {
+  margin-left: 38px;
+  margin-top: 4px;
+  width: 185px;
+  border: none;
+}
+
+.header-glass {
+  display: block;
+  width: 15px;
+  margin-left: 305px;
+  margin-top: -23px;
+}
+
+.header-menu {
+  display: block;
+  width: 20px;
+  margin-right: 10px;
+  margin-top: -16px
+}
+
+.header-banner {
+  width: 100%;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: -2;
+}
+/*
+========================================================================================================================
+MAIN
+========================================================================================================================
+*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px 150px 150px;
+  justify-content: stretch;
+  align-content: stretch;
+  gap: 0 0;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+ }
+
+.img2 {
+  width: 100%;  
+  height: 100%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.img3 {
+  width: 100%;  
+  height: 100%;
+  border-bottom: 1px solid black;
+}
+
+.img4 {
+  width: 100%;  
+  height: 100%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.img5 {
+  width: 100%;  
+  height: 100%;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.img6 {
+  width: 100%;  
+  height: 200%;
+  grid-area: 2 / 2 / 2 / 4; /* dos filas de ancho x 2 filas de alto*/
+  border-bottom: 1px solid black;
+ }
+
+.img7 {
+  width: 100%;
+  height: 100%;
+  grid-area: 4 / 1 / 5 / 3; /* dos filas de ancho x 1 fila de alto*/
+  border-right: 1px solid black;
+}
+
+.img8 {
+  width: 100%;  
+  height: 100%;
+  grid-area: 4 / 3 / 5 / 4; /* una fila de ancho x 1 fila de alto*/
+}
+
+.image {
+  width: 90%;  
+  height: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-radius: 20px;
+}
+
+.image-basicos {
+  width: 95%;  
+  height: 95%;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-radius: 20px;
+}
+
+.image-portatiles {
+   width: 95%;  
+  height: 90%;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-radius: 20px;
+}
+
+.description {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: -18%;
+}
+
+.description-basicos {
+  position: relative;
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  top: -20%;
+}
+/*
+========================================================================================================================
+FOOTER
+========================================================================================================================
+*/
+.footer-bar {
+  background-color: rgb(149, 28, 28);
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
+}
+
+.footer-icons {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.telegram-icon {
+  color: white;
+  width: 20px;
+}
+
+.instagram-icon {
+  color: white;
+  width: 20px;
+}
+
+.twitter-icon {
+  color: white;
+  width: 20px;
+}
+
+.facebook-icon {
+  color: white;
+  width: 20px;
+}
+/*
+========================================================================================================================
+MEDIA QUERIES
+========================================================================================================================
+*/
