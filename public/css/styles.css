@@ -115,25 +115,8 @@ main {
   position: fixed;
   width: 100vw;
   height: 100vh;
+  z-index: -999;
 }
-
-/* #header-spacer{
-  position: fixed;
-  bottom: 0;
-  z-index: -998;
-  width: 100vw;
-  height: 300px;
-  overflow:hidden;
-} */
-
-/* #footer-spacer{
-  position: fixed;
-  bottom: 0;
-  z-index: -997;
-  width: 100vw;
-  height: 60px;
-  overflow: hidden;
-} */
 
 .grid {
   position:absolute;
