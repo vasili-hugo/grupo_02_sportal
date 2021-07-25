@@ -6,95 +6,145 @@
 }
 
 body {
-  background-color: rgb(238, 228, 228);  
-  max-width: 375px;
+  background-color: rgb(240, 240, 240);
+  max-width: 414px;
 }
+
 /*
 ========================================================================================================================
 HEADER
 ========================================================================================================================
 */
 .header-bar {
-  background-color: rgb(149, 28, 28);
-  width: 100%px;
-  height: 60px;
+  background-color: #950000;
+  width: 95%;
+  height: 74px;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .header-circle {
-  background-color: rgb(149, 28, 28);
-  padding: 50px;
-  border-radius: 70px;
-  width: 70px;
-  margin-left: 0px;
-  margin-top: -50px;
+  position: fixed;
+  background-image: url(/imgs/sportal_logo_000.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-color: #950000;
+  border-radius: 0 0 100% 100%;
+  width: 144px;
+  height: 144px;
+  top: -14px;
+  left: 0;
+  /* margin-left: 0px;
+  margin-top: -50px; */
 }
 
 .header-sportal-logo {
-  position: absolute;
-  margin-left: 14px;
-  margin-top: -95px;
   width: 75px;
 }
 
 .header-login {
-   text-align: right;
-  margin-top: -90px;
-  margin-right: 10px;
+  position: fixed;
+  text-align: right;
+  top: 25px;
+  right: 15px;
   color: white;
   font-size: 20px;
 }
 
 .header-search-box {
-  margin-left: 70px;
-  margin-top: 15px;
-  width: 260px;
-  height: 30px;
+
+  width: 68%;
   background-color: white;
-  border-radius: 30px;
-  border: 1px solid black;
-  position: relative;
+  border-radius: 0 28px 28px 0;
+
+  border: none;
+  position: fixed;
+  left: 86px;
+  top: 74px;
   z-index: -1;
 }
 
-.header-search-input {
-  margin-left: 38px;
-  margin-top: 4px;
-  width: 185px;
+.header-search-box input {
   border: none;
+  width: 66%;
+  height: 56px;
+  left: 50px;
+  position: relative;
+  outline: none;
 }
 
 .header-glass {
+  position: absolute;
   display: block;
-  width: 15px;
-  margin-left: 305px;
-  margin-top: -23px;
+  font-size: 1em;
+  right: 21px;
+  top: 19px;
+  color: #707070;
 }
 
 .header-menu {
+  position: fixed;
   display: block;
+  color: rgba(255, 255, 255, 0.8);
   width: 20px;
-  margin-right: 10px;
-  margin-top: -16px
+  right: 17px;
+  top: 84px;
+  font-size: 2em;
 }
 
 .header-banner {
-  width: 100%;
-  margin-top: -30px;
-  margin-bottom: 10px;
-  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/imgs/img-home-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 200px;
+  top: 66px;
+  position: fixed;
   z-index: -2;
+  left: 0;
 }
+
 /*
 ========================================================================================================================
 MAIN
 ========================================================================================================================
 */
+main {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* #header-spacer{
+  position: fixed;
+  bottom: 0;
+  z-index: -998;
+  width: 100vw;
+  height: 300px;
+  overflow:hidden;
+} */
+
+/* #footer-spacer{
+  position: fixed;
+  bottom: 0;
+  z-index: -997;
+  width: 100vw;
+  height: 60px;
+  overflow: hidden;
+} */
+
 .grid {
+  position:absolute;
+  height: auto;
+  overflow: scroll;
+  top:280px;
+  bottom: 70px;
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 150px 150px 150px;
-  justify-content: stretch;
-  align-content: stretch;
+  grid-template-rows: 33.3vw 33.3vw 33.3vw 33.3vw;
   gap: 0 0;
 }
 
@@ -103,57 +153,60 @@ MAIN
   height: 100%;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
- }
+}
 
 .img2 {
-  width: 100%;  
+  width: 100%;
   height: 100%;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
 }
 
 .img3 {
-  width: 100%;  
+  width: 100%;
   height: 100%;
   border-bottom: 1px solid black;
 }
 
 .img4 {
-  width: 100%;  
+  width: 100%;
   height: 100%;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
 }
 
 .img5 {
-  width: 100%;  
+  width: 100%;
   height: 100%;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
 }
 
 .img6 {
-  width: 100%;  
+  width: 100%;
   height: 200%;
-  grid-area: 2 / 2 / 2 / 4; /* dos filas de ancho x 2 filas de alto*/
+  grid-area: 2 / 2 / 2 / 4;
+  /* dos filas de ancho x 2 filas de alto*/
   border-bottom: 1px solid black;
- }
+}
 
 .img7 {
   width: 100%;
   height: 100%;
-  grid-area: 4 / 1 / 5 / 3; /* dos filas de ancho x 1 fila de alto*/
+  grid-area: 4 / 1 / 5 / 3;
+  /* dos filas de ancho x 1 fila de alto*/
   border-right: 1px solid black;
 }
 
 .img8 {
-  width: 100%;  
+  width: 100%;
   height: 100%;
-  grid-area: 4 / 3 / 5 / 4; /* una fila de ancho x 1 fila de alto*/
+  grid-area: 4 / 3 / 5 / 4;
+  /* una fila de ancho x 1 fila de alto*/
 }
 
 .image {
-  width: 90%;  
+  width: 90%;
   height: 90%;
   margin-top: 5%;
   margin-left: 5%;
@@ -161,7 +214,7 @@ MAIN
 }
 
 .image-basicos {
-  width: 95%;  
+  width: 95%;
   height: 95%;
   margin-top: 2%;
   margin-left: 2%;
@@ -169,7 +222,7 @@ MAIN
 }
 
 .image-portatiles {
-   width: 95%;  
+  width: 95%;
   height: 90%;
   margin-top: 2%;
   margin-left: 2%;
@@ -190,14 +243,17 @@ MAIN
   color: white;
   top: -20%;
 }
+
 /*
 ========================================================================================================================
 FOOTER
 ========================================================================================================================
 */
 .footer-bar {
-  background-color: rgb(149, 28, 28);
-  margin-top: 10px;
+  position: fixed;
+  background-color: #950000;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 60px;
 }
@@ -210,7 +266,12 @@ FOOTER
   margin-right: 10px;
 }
 
-.telegram-icon {
+.footer-icons i {
+  color: white;
+  font-size: 1.1rem;
+}
+
+/* .telegram-icon {
   color: white;
   width: 20px;
 }
@@ -228,7 +289,7 @@ FOOTER
 .facebook-icon {
   color: white;
   width: 20px;
-}
+} */
 /*
 ========================================================================================================================
 MEDIA QUERIES

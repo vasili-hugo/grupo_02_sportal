@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/styles-home.css" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Sportia - El portal de los Guerreros Urbanos</title>
 </head>
+
 <body>
     <header>
         <div class="header-bar"></div>
         <div class="header-circle"></div>
-        <img class="header-sportal-logo" src="imgs/sportal_logo_000.png">
+        <!-- <img class="header-sportal-logo" src="imgs/sportal_logo_000.png"> -->
         <div class="header-login" href="/menu.html">
             Login
             <i class="far fa-user-circle"></i>
         </div>
         <div class="header-search-box">
-            <input class="header-search-input" type="text" name="search-string" placeholder="Ingrese el texto a buscar">
+            <form action="/search" method="GET">
+                <input class="header-search-input" type="text" name="search-string"
+                    placeholder="Ingrese el texto a buscar" autocomplete="false">
+            </form>
+            <i class="fas fa-search header-glass"></i>
         </div>
-        <img class="header-glass" src="imgs/magnifying-glass.png">
-        <img class="header-menu" src="imgs/menu.png" href="/menu.html">
-        <img class="header-banner" src="imgs/img-home-banner.jpg">
+        
+        <!-- <img class="header-glass" src="imgs/magnifying-glass.png"> -->
+        <a class="header-menu" href="/menu.html"><i class="fas fa-bars"></i></a>
+        <!-- <img class="header-menu" src="imgs/menu.png" href="/menu.html"> -->
+        <div class="header-banner" ></div>
     </header>
 
     <main>
+        <!-- <div id="header-spacer"></div> -->
         <div class="grid">
             <div class="img1">
                 <img class="image" src="imgs/ferrari/20020512.jpg">
@@ -63,17 +72,25 @@
                 <div class="description">Electro</div>
             </div>
         </div>
+        <!-- <div id="footer-spacer"></div> -->
+
     </main>
 
     <footer>
         <div class="footer-bar">
             <div class="footer-icons">
-                <img class="telegram-icon" src="imgs/telegram.svg">
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+
+                <!-- <img class="telegram-icon" src="imgs/telegram.svg">
                 <img class="instagram-icon" src="imgs/instagram.svg">
                 <img class="twitter-icon" src="imgs/twitter.svg">
-                <img class="facebook-icon" src="imgs/facebook.svg">
+                <img class="facebook-icon" src="imgs/facebook.svg"> -->
             </div>
         </div>
     </footer>
 </body>
+
 </html>
