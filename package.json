@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/vasili-hugo/grupo_02_sportal.git"
   },
-  "author": "",
+  "author": "Hugo Vasiliev, Sergio Perin, Luciano De Palma",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vasili-hugo/grupo_02_sportal/issues"
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/vasili-hugo/grupo_02_sportal#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "keywords": [
+    "sportal"
+  ]
 }
