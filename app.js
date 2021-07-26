@@ -13,6 +13,10 @@ app.get('/home', function(req, res){
     res.sendFile(path.join(__dirname, '/views/home.html'))
 });
 
+app.get('/favicon.ico', function(req, res){
+    res.sendFile(path.join(__dirname, '/public/imgs/favicon.ico'))
+});
+
 app.listen (8000, () => {
     console.log ('Servidor corriendo en http://localhost:8000')
 })
