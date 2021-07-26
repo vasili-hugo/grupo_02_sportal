@@ -31,7 +31,7 @@ HEADER
   background-repeat: no-repeat;
   background-size: 70%;
   background-color: #950000;
-  border-radius: 0 0 100% 100%;
+  border-radius: 0 0 50% 50%;
   width: 144px;
   height: 144px;
   top: -14px;
@@ -55,7 +55,7 @@ HEADER
 
 .header-search-box {
 
-  width: 68%;
+  width: 63%;
   background-color: white;
   border-radius: 0 28px 28px 0;
 
@@ -68,7 +68,7 @@ HEADER
 
 .header-search-box input {
   border: none;
-  width: 66%;
+  width: 55%;
   height: 56px;
   left: 50px;
   position: relative;
@@ -246,12 +246,27 @@ FOOTER
   height: 60px;
   display: flex;
   justify-content: center;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .footer-icons i {
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+}
+
+.footer-bar .info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  font-size: 1em;
+  color:white;
+  width:25px;
+  height: 25px;
+  border:2px white solid;
+  border-radius: 50%;
 }
 
 /* .telegram-icon {
