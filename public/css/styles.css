@@ -113,21 +113,21 @@ MAIN
 */
 main {
   position: fixed;
-  width: 100vw;
-  height: 100vh;
+  left: 0;
+  width: 100%;
   z-index: -999;
+  margin-top: 280px;
+  height: calc(100% - 330px);
+  overflow: scroll;
 }
 
 .grid {
-  position:absolute;
+  position: relative;
   height: auto;
-  overflow: scroll;
-  top:280px;
-  bottom: 70px;
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 33.3vw 33.3vw 33.3vw 33.3vw;
+  grid-template-rows: 33.1vw 33.1vw 33.1vw 33.1vw;
   gap: 0 0;
 }
 
@@ -254,7 +254,7 @@ FOOTER
   font-size: 1.3rem;
 }
 
-.footer-bar .info{
+.footer-bar .info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,10 +262,10 @@ FOOTER
   left: 20px;
   bottom: 17px;
   font-size: 1em;
-  color:white;
-  width:25px;
+  color: white;
+  width: 25px;
   height: 25px;
-  border:2px white solid;
+  border: 2px white solid;
   border-radius: 50%;
 }
 
