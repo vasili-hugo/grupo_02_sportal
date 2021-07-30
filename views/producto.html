@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+    <title>Sportal - Portal para Guerreros Urbanos</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-bar"></div>
+        <div class="header-circle"></div>
+        <!-- <img class="header-sportal-logo" src="imgs/sportal_logo_000.png"> -->
+        <div class="header-login" href="/menu.html">
+            Login
+            <i class="far fa-user-circle"></i>
+        </div>
+        <div class="header-search-box-producto">
+            <form action="/search" method="GET">
+                <input class="header-search-input-producto" type="text" name="search-string" placeholder="Ingrese su búsqueda"
+                autocomplete="false">
+            </form>
+            <i class="fas fa-search header-glass"></i>
+        </div>
+        <div class='header-menu-list'>
+            <ul>
+                <li><a href="$">Básicos</a></li>
+                <li><a href="$">Calzado</a></li>
+                <li><a href="$">Equipo</a></li>
+                <li><a href="$">Carga</a></li>
+                <li><a href="$">Agua</a></li>
+                <li><a href="$">Tech</a></li>
+                <li><a href="$">Portátiles</a></li>
+                <li><a href="$">Electro</a></li>
+            </ul>
+        </div>    
+        <!-- <img class="header-glass" src="imgs/magnifying-glass.png"> -->
+        <a class="header-menu" href="/menu.html"><i class="fas fa-bars"></i></a>
+        <!-- <img class="header-menu" src="imgs/menu.png" href="/menu.html"> -->
+        <div class="header-banner"></div>
+    </header>
+
+    <main>
+        <div class='home-menu'>
+            <a href="/home"><i class="fas fa-home"></i></a>
+            <a href="$categorias">Categorias > </a>
+            <a href="$sub-categorias">Subcategorias > </a>
+            <a href="$producto">Producto</a>
+        </div>
+        <div class='product-items'>
+            <div class="product-images">
+            <div class="product-image-angles">   
+                <img class="image" src="imgs/ferrari/20020512.jpg">
+                <img class="image" src="imgs/ferrari/20020527.jpg">
+                <img class="image" src="imgs/ferrari/20020528.jpg">
+                <img class="image" src="imgs/ferrari/20020607.jpg">
+            </div> 
+            <div class='principal-image'>                
+                <img class="image" src="imgs/ferrari/20020612.jpg">
+            </div>
+            </div>
+            <div class='product-description'>
+                <div class='desc-title'>
+                    <img src="/imgs/logoadidas.png">
+                    <h3>Nombre producto</h3>
+                    <div class="product-desc-price">$8000</div>
+                </div>
+                <div class="description-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat exercitationem aliquid deleniti ut 
+                    nisi dolorum dicta ea maiores dolorem error reiciendis accusamus inventore fugiat architecto suscipit vero, 
+                    porro aperiam?
+                </div>
+                <form action="/#" method="GET" class="description-options">
+                    <div>
+                        <label class="option-title" for="sexo">Sexo</label>
+                        <input type="radio" name="sexo" id="sexo" value="M"><label for="sexo">M</label>
+                        <input type="radio" name="sexo" id="sexo" value='F'><label for="sexo">F</label>
+                    </div>
+                    <div>
+                        <label class="option-title" for='edad'>Edad</label>
+                        <input type="radio" name="edad" id="edad" value="adulto"><label for="edad">Adulto</label>
+                        <input type="radio" name="edad" id="edad" value="niño"><label for="edad">Niño</label>
+                    </div>
+                    <div>
+                        <label class="option-title" for="color">Color</label>
+                        <input type="radio" name="color" id="color" value="rojo"><label for="color">Rojo</label>
+                        <input type="radio" name="color" id="color" value="azul"><label for="color">Azul</label>
+                        <input type="radio" name="color" id="color" value="amarillo"><label for="color">Amarillo</label>
+                        <input type="radio" name="color" id="color" value="verde"><label for="color">Verde</label>
+                    </div>
+                </form>
+                <div class='description-bottom'>
+                    <div class="desc-socials">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <div class="desc-button">
+                        <input type="number" min='1' max="30" value="1">
+                        <a href="/home"><i class="fas fa-check-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class='similar-products'>
+                <h3>Otros productos similares</h3>
+                <div class='similar-products-1line'>
+                    <div class="image-left"><img src="imgs/ferrari/20020618.jpg"></div>
+                    <div><img src="imgs/ferrari/20020721.jpg"></div>
+                </div>
+                <div class='similar-products-2line'>
+                    <div class="image-left"><img src="imgs/ferrari/20020809.jpg"></div>
+                    <div><img src="imgs/ferrari/20020812.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bar">
+            <div class="footer-icons">
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+
+                <!-- <img class="telegram-icon" src="imgs/telegram.svg">
+                <img class="instagram-icon" src="imgs/instagram.svg">
+                <img class="twitter-icon" src="imgs/twitter.svg">
+                <img class="facebook-icon" src="imgs/facebook.svg"> -->
+            </div>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fas fa-info info"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
