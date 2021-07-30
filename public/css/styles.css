@@ -305,6 +305,7 @@ Producto
   left: 20px;
   z-index: 10;
   width: 100%;
+  margin: auto;
   height: auto;
 }
 .home-menu a{  
@@ -351,8 +352,8 @@ header a{
   border-bottom: 1px solid #888;
 }
 .product-image-angles .image {
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 75px;
   border-radius: 10px;
   margin: 5px;
 }
@@ -362,17 +363,17 @@ header a{
   text-align: center;
 }
 .principal-image .image {
-  width: 270px;
-  height: 270px;
+  width: 340px;
+  height: 340px;
   margin: 5px auto;
 }
 .product-description {
   padding: 5px;
-  width: 290px;
+  width: 340px;
   border-bottom: solid 1px #888;
 }
 .description-text{
-  font-size: 11px;
+  font-size: 12px;
   margin: 10px;
 }
 .desc-title {
@@ -384,7 +385,7 @@ header a{
   margin-left: -10%;
 }
 .desc-title h3 {
-  width: 80px;
+  width: 130px;
   margin-left: -30px;
 }
 .product-desc-price {
@@ -444,8 +445,8 @@ header a{
   display: flex;
 }
 .similar-products-1line img {
-  width: 135px;
-  height: 135px;
+  width: 160px;
+  height: 160px;
   margin: 5px;
   border-radius: 10px;
 }
@@ -453,8 +454,8 @@ header a{
   border-right: solid 1px #888;
 }
 .similar-products-2line img {
-  width: 135px;
-  height: 135px;
+  width: 160px;
+  height: 160px;
   margin: 5px;
   border-radius: 10px;
 }
@@ -482,3 +483,39 @@ header a{
 MEDIA QUERIES
 ========================================================================================================================
 */
+@media (min-width: 768px){
+  .product-items {
+    flex-direction: row;
+  }
+  .product-images {
+    flex-direction: row;
+  }
+  .product-image-angles {
+    flex-direction: column;
+    border-bottom: none;
+    border-right: 1px solid #888;
+  }
+  .product-image-angles .image {
+    width: 78px;
+    height: 78px;
+  }
+  .principal-image {
+    border-bottom: none;
+    border-right: 1px solid #888;
+  }
+  .product-description {
+    height: 363px;
+    border-bottom: none;
+  }
+  .similar-products {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .similar-products {
+    display: flex;
+  }
+  .product-description {
+    border-right: 1px solid #888;
+  }
+}
