@@ -1,0 +1,521 @@
+@import url("normalize.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  background-color: rgb(240, 240, 240);
+  max-width: 414px;
+}
+
+/*
+========================================================================================================================
+HEADER
+========================================================================================================================
+*/
+.header-bar {
+  background-color:#950000;
+  width: 95%;
+  height: 74px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.header-circle {
+  position: fixed;
+  background-image: url(/imgs/sportal_logo_000.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-color: #950000;
+  border-radius: 0 0 50% 50%;
+  width: 144px;
+  height: 144px;
+  top: -14px;
+  left: 0;
+}
+
+.header-sportal-logo {
+  width: 75px;
+}
+
+.header-login {
+  position: fixed;
+  text-align: right;
+  top: 25px;
+  right: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.header-search-box {
+  width: 63%;
+  background-color: white;
+  border-radius: 0 28px 28px 0;
+  border: none;
+  position: fixed;
+  left: 86px;
+  top: 74px;
+  z-index: -1;
+}
+
+.header-search-box input {
+  border: none;
+  width: 55%;
+  height: 56px;
+  left: 50px;
+  position: relative;
+  outline: none;
+}
+
+.header-glass {
+  position: absolute;
+  display: block;
+  font-size: 1em;
+  right: 21px;
+  top: 19px;
+  color: #707070;
+}
+
+.header-menu {
+  position: fixed;
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  width: 20px;
+  right: 17px;
+  top: 84px;
+  font-size: 2em;
+}
+
+.header-banner {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/imgs/img-home-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 200px;
+  top: 66px;
+  position: fixed;
+  z-index: -2;
+  left: 0;
+}
+
+/*
+========================================================================================================================
+MAIN
+========================================================================================================================
+*/
+main {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: -999;
+  margin-top: 280px;
+  height: calc(100% - 330px);
+  overflow: scroll;
+}
+
+.filters {
+  width: 100%;
+}
+
+.goback-link {
+  margin-left: 15px;
+}
+
+.filtering, .sorting {
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+}
+
+.filter-title, .sort-title {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.filter-options, .sort-options {
+  font-weight: bold;
+}
+
+.grid-art {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 600px 400px 400px 400px;
+  grid-template-areas:
+    "art1 art2"
+    "art3 art3"
+    "art4 art5"
+    "art6 art7"
+    "art8 art9";
+  justify-content: stretch;
+  align-content: stretch;
+  gap: 0 0;
+}
+
+.art1 {
+  width: 100%;
+  height: 100%;
+  grid-area: art1;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.art2 {
+  width: 100%;
+  height: 100%;
+  grid-area: art2;
+  border-bottom: 1px solid black;
+}
+
+.art3 {
+  width: 100%;
+  height: 100%;
+  grid-area: art3;
+  border-bottom: 1px solid black;
+}
+
+.art4 {
+  width: 100%;
+  height: 100%;
+  grid-area: art4;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.art5 {
+  width: 100%;
+  height: 100%;
+  grid-area: art5;
+  border-bottom: 1px solid black;
+}
+
+.art6 {
+  width: 100%;
+  height: 100%;
+  grid-area: art6;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.art7 {
+  width: 100%;
+  height: 100%;
+  grid-area: art7;
+  border-bottom: 1px solid black;
+}
+
+.art8 {
+  width: 100%;
+  height: 100%;
+  grid-area: art8;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.art9 {
+  width: 100%;
+  height: 100%;
+  grid-area: art9;
+  border-bottom: 1px solid black;
+}
+
+.lower-rect {
+  background-color: rgb(220, 220, 220);
+  width: 90%;  
+  height: 92%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-radius: 20px;
+}
+
+.middle-rect {
+  background-color: rgb(200, 200, 200);
+  width: 100%;  
+  height: 50%;
+  border-radius: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(200, 200, 200);
+  border-radius: 20px;
+}
+
+.flex-dpii {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  min-height:50%;
+  position: relative;
+}
+
+.description {
+  margin: 5px;
+  color: #950000;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: justify;
+  height: 100px;
+}
+
+.description3 {
+  margin: 5px;
+  color: #950000;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: justify;
+  height: 180px;
+}
+
+.precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 5px;
+  color: #707070;
+}
+
+.icon-info {
+  display: flex;
+  width: 100%;
+}
+
+.icon3-info {
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.icon {
+  width: 40%;
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.icon3 {
+  width: 40%;
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  transform: scale(0.9);
+  top: -35px
+}
+
+.icon-info a i {
+  position: relative;
+  right: -15px;
+  bottom: 0px;
+  font-size: 1em;
+  color: #950000;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #950000;
+  border-radius: 50%;
+  padding-top: 2px;
+  padding-left: 8px;
+}
+
+.icon3-info a i {
+  position: relative;
+  right: -190%;
+  bottom: 0px;
+  font-size: 1em;
+  color: #950000;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #950000;
+  border-radius: 50%;
+  padding-top: 2px;
+  padding-left: 8px;
+}
+/*
+========================================================================================================================
+FOOTER
+========================================================================================================================
+*/
+.footer-bar {
+  position: fixed;
+  background-color: #950000;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.footer-icons {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.footer-icons i {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.footer-bar .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  font-size: 1em;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border: 2px white solid;
+  border-radius: 50%;
+}
+/*
+========================================================================================================================
+MEDIA QUERIES
+========================================================================================================================
+*/
+@media (min-width: 450px) {
+
+  .grid-art {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 400px 400px;
+    grid-template-areas:
+      "art1 art2 art3 art3 art4"
+      "art5 art6 art7 art8 art9";
+    justify-content: stretch;
+    align-content: stretch;
+    gap: 0 0;
+  }
+    
+  .art2 {
+    width: 100%;
+    height: 100%;
+    grid-area: art2;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .art3 {
+    width: 100%;
+    height: 100%;
+    grid-area: art3;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .art4 {
+    width: 100%;
+    height: 100%;
+    grid-area: art4;
+    border-bottom: 1px solid black;
+  }
+
+  .art5 {
+    width: 100%;
+    height: 100%;
+    grid-area: art5;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .art6 {
+    width: 100%;
+    height: 100%;
+    grid-area: art6;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .art7 {
+    width: 100%;
+    height: 100%;
+    grid-area: art7;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .lower-rect3 {
+    background-color: rgb(220, 220, 220);
+    width: 95%;  
+    height: 92%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 20px;
+  }
+
+  .middle-rect {
+    background-color: rgb(200, 200, 200);
+    width: 100%;  
+    height: 50%;
+    border-radius: 20px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 20px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .precio {
+    font-size: 18px;
+  }
+
+  .icon3 {
+    transform: scale(0.7);
+    top: -45px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .filters {
+    font-size: 16px;
+  }
+
+  .goback-link {
+    position: relative;
+    top: 10px;
+  }
+
+  .filtering {
+    position: relative;
+    bottom: 30px;
+    left: 230px;
+  }
+
+  .sorting {
+    position: relative;
+    bottom: 78px;
+    left: 490px;
+  }
+
+  .grid-art {
+    margin-top: -80px;
+  }
+}
+
+@media (min-width: 1200px) {
+ 
+  .icon3 {
+    transform: scale(0.3);
+    top: -55px;
+  }
+}
