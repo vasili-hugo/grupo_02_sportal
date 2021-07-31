@@ -300,13 +300,14 @@ Producto
 }
 .home-menu {
   color: #950000;
-  position: absolute;
+  position: relative;
   display: block;
   left: 20px;
   z-index: 10;
   width: 100%;
   margin: auto;
   height: auto;
+  max-width: 1200px;
 }
 .home-menu a{  
   text-decoration: none;
@@ -336,6 +337,7 @@ header a{
   position: relative;
   top: 20px;
   padding: 5px;
+  max-width: 1200px;
 }
 .product-items h3 {
   color: #950000;
@@ -517,5 +519,9 @@ MEDIA QUERIES
   }
   .product-description {
     border-right: 1px solid #888;
+    width: 35%;
+  }
+  .desc-title h3 {
+    width: 50%;
   }
 }
