@@ -282,3 +282,8 @@ a:active {
 #footer-bar i:hover {
     color: black;
 }
+
+#footer-bar .info:hover {
+    color: black;
+    border: 2px black solid;
+}
