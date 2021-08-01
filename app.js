@@ -33,6 +33,10 @@ app.get('/producto', function(req, res){
     res.sendFile(path.join(__dirname, '/views/producto.html'))
 });
 
+app.get('/login', function(req, res){
+    res.sendFile(path.join(__dirname, '/views/login.html'))
+});
+
 app.listen (8000, () => {
     console.log ('Servidor corriendo en http://localhost:8000')
 })
