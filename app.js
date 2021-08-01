@@ -9,6 +9,10 @@ app.get ('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/home.html'));
 })
 
+app.get('/index', function(req, res){
+    res.sendFile(path.join(__dirname, '/views/index.html'))
+});
+
 app.get('/home', function(req, res){
     res.sendFile(path.join(__dirname, '/views/home.html'))
 });
