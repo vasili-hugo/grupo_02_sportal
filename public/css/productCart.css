@@ -141,7 +141,9 @@ main {
 }
 
 
-.goback-link a:visited,a:link,a:active{
+.goback-link a:visited,
+.goback-link a:link,
+.goback-link a:active{
   color: #950000
 }
 
