@@ -55,10 +55,12 @@ body {
 #header-banner {
     grid-row: 2 / span 4;
     grid-column: 1 / span 8;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/imgs/img-home-banner.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../imgs/sport/run.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:center;
+    background-position-y: 30%;
     z-index: -2;
+    border-bottom: 2px solid white;
 }
 
 #header-circle {
@@ -251,6 +253,10 @@ a.link-cat:hover{
     
 }
 
+.link03 .pict,
+.link05 .pict{
+    background-image: url(../imgs/sport/run2.jpg);
+}
 
 
 @media (min-width:600px){
@@ -314,34 +320,6 @@ a.link-cat:hover{
 
 
 
-/*
-
-.item {
-    padding: 10px;
-    background-color: white;
-
-}
-
-.cell {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 63.75%;
-    width: 100%;
-    height: 100%;
-    background-color: #ddd;
-    border-radius: calc(100vw / 24);
-    box-shadow: #eee 2px 2px 8px;
-}
-
-.pict {
-    width: 100%;
-    height: 100%;
-    background-color: #AAA;
-    border-radius: calc(100vw / 24);
-} */
-
-
-
 /* FOOTER-------------------------------------------------------------------------------- */
 
 #footer2 {
@@ -349,6 +327,7 @@ a.link-cat:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top: 2px solid white;
 }
 
 #footer-bar {
