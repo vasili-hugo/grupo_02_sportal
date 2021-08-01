@@ -6,15 +6,16 @@ const publicPath = path.join (__dirname, '/public');
 app.use (express.static(publicPath));
 
 app.get ('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/views/home.html'));
+    res.sendFile(path.join(__dirname, '/views/index.html'));
 })
 
-app.get('/index', function(req, res){
+// A reemplazar por index
+app.get('/home', function(req, res){
     res.sendFile(path.join(__dirname, '/views/index.html'))
 });
 
 app.get('/home', function(req, res){
-    res.sendFile(path.join(__dirname, '/views/home.html'))
+    res.sendFile(path.join(__dirname, '/views/home_old.html'))
 });
 
 app.get('/productCats', function(req, res){
