@@ -256,7 +256,7 @@ a.link-cat:hover{
 @media (min-width:600px){
     #main-container{
         grid-template-columns: repeat(5, calc(100vw / 5));
-        grid-template-rows: repeat(5, calc(100vw / 5));
+        grid-template-rows: repeat(3, calc(100vw / 5));
     }
     #main-container a.link10{
         display:initial;
