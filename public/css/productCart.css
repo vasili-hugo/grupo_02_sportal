@@ -53,6 +53,15 @@ HEADER
   color: white;
   font-size: 20px;
 }
+.header-login a:link,a:visited,a:active{
+ color:white;
+}
+.header-login i:hover{
+  color:black;
+ }
+.header-login:hover{
+  color:black
+}
 
 .header-search-box {
   width: 63%;
@@ -121,6 +130,22 @@ main {
 
 .goback-link {
   margin-left: 15px;
+  color: #950000;
+  font-weight: 400;
+}
+.goback-link img{
+  transform: translateY(2px);
+  height: 1.3em;
+  filter:invert(9%) sepia(73%) saturate(5980%) hue-rotate(358deg) brightness(89%) contrast(112%);
+}
+
+
+.goback-link a:visited,a:link,a:active{
+  color: #950000
+}
+
+.goback-link a:hover{
+  color: black
 }
 
 .grid-buy {

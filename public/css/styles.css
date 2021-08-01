@@ -54,6 +54,16 @@ HEADER
   font-size: 20px;
 }
 
+.header-login a:link,a:visited,a:active{
+  color:white;
+ }
+ .header-login i:hover{
+   color:black;
+  }
+ .header-login:hover{
+   color:black
+ }
+
 .header-search-box {
 
   width: 63%;
