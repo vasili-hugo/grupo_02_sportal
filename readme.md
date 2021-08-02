@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/vasili-hugo/grupo_02_sportal/master/imgs/sportal_logo_000.png)
+![Logo](https://github.com/vasili-hugo/grupo_02_sportal/blob/master/public/imgs/sportal_logo_000.png)
 
 # Bienvenidos al proyecto sportal
 
