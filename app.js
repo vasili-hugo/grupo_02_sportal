@@ -14,20 +14,20 @@ app.get('/home', function(req, res){
     res.sendFile(path.join(__dirname, '/views/index.html'))
 });
 
+app.get('/favicon.ico', function(req, res){
+    res.sendFile(path.join(__dirname, '/public/imgs/favicon.ico'))
+});
+
 // app.get('/home', function(req, res){
 //     res.sendFile(path.join(__dirname, '/views/home_old.html'))
 // });
-
+// Version anterior a /productos
 app.get('/productCats', function(req, res){
     res.sendFile(path.join(__dirname, '/views/productCats.html'))
 });
 
 app.get('/carrito', function(req, res){
     res.sendFile(path.join(__dirname, '/views/productCart.html'))
-});
-
-app.get('/favicon.ico', function(req, res){
-    res.sendFile(path.join(__dirname, '/public/imgs/favicon.ico'))
 });
 
 app.get('/producto', function(req, res){
