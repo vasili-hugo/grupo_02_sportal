@@ -75,6 +75,7 @@ body {
 }
 
 #header-login {
+    text-decoration: none;
     grid-row: 1 / span 1;
     grid-column: 5 / span 3;
     color: white;
@@ -207,7 +208,7 @@ body {
     align-items: center;
 }
 
-#breadcrumb-link {
+#breadcrumb-link, #breadcrumb-span {
     margin-left: 15px;
     height: auto;
     color: #950000;

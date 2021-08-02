@@ -14,15 +14,15 @@ app.get('/home', function(req, res){
     res.sendFile(path.join(__dirname, '/views/index.html'))
 });
 
-app.get('/home', function(req, res){
-    res.sendFile(path.join(__dirname, '/views/home_old.html'))
-});
+// app.get('/home', function(req, res){
+//     res.sendFile(path.join(__dirname, '/views/home_old.html'))
+// });
 
 app.get('/productCats', function(req, res){
     res.sendFile(path.join(__dirname, '/views/productCats.html'))
 });
 
-app.get('/productCart', function(req, res){
+app.get('/carrito', function(req, res){
     res.sendFile(path.join(__dirname, '/views/productCart.html'))
 });
 

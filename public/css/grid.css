@@ -75,12 +75,14 @@ body {
 }
 
 #header-login {
+    text-decoration: none;
     grid-row: 1 / span 1;
     grid-column: 5 / span 3;
     color: white;
     font-size: 20px;
     align-self: center;
     text-align: end;
+    z-index: 4;
 }
 
 #header-login a:link,
