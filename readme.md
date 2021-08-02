@@ -53,4 +53,4 @@ PAGINAS EN PROCESO (algunos links de las primeras dos y del checkout funcionan)
 /producto  ---> producto.html
 /carrito   ---> productCart.html
 /login     ---> login.html
-/register  ---> register.html
+/regisro  ---> register.html
