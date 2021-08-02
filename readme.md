@@ -30,12 +30,12 @@ Es diseñador gráfico con años de experiencia profesional. Actualmente dirige 
 
 PAGINAS EN PROCESO (algunos links de las primeras dos y del checkout funcionan)
 
--root o home   ---> index.html
--productos ---> productos.html ( y /productCats  --->  productCats.html, que es una version anterior)
--producto  ---> producto.html
--carrito   ---> productCart.html
--login     ---> login.html
--regisro  ---> register.html
+-root o home   ---> index.html<br>
+-productos ---> productos.html ( y /productCats  --->  productCats.html, que es una version anterior)<br>
+-producto  ---> producto.html<br>
+-carrito   ---> productCart.html<br>
+-login     ---> login.html<br>
+-regisro  ---> register.html<br>
 
 
 REFERENCIAS CONSULTADAS PARA EL PROYECTO
