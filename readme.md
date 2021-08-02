@@ -28,6 +28,16 @@ Actualmente trabajando en atención al cliente en un comercio de indumentaria de
 Es diseñador gráfico con años de experiencia profesional. Actualmente dirige un equipo de diseñadores en un medio gráfico y se especializa en: **infografía** -  **análisis y procesamiento de datos** (científicos, económicos y espaciales) y en **visualización de información**.  También se desempeña cómo ilustrador 2d, 3d - motion graphics, fotógrafo y editor periodístico.
 
 
+PAGINAS EN PROCESO (algunos links de las primeras dos y del checkout funcionan)
+
+-root o home   ---> index.html
+-productos ---> productos.html ( y /productCats  --->  productCats.html, que es una version anterior)
+-producto  ---> producto.html
+-carrito   ---> productCart.html
+-login     ---> login.html
+-regisro  ---> register.html
+
+
 REFERENCIAS CONSULTADAS PARA EL PROYECTO
 - [SoloDeportes](https://www.solodeportes.com.ar/) 
 - [OpenSports](https://www.opensports.com.ar/) 
@@ -45,11 +55,4 @@ REFERENCIAS CONSULTADAS PARA EL PROYECTO
 - Gap
 
 
-PAGINAS EN PROCESO (algunos links de las primeras dos y del checkout funcionan)
 
--root o home   ---> index.html
--productos ---> productos.html ( y /productCats  --->  productCats.html, que es una version anterior)
--producto  ---> producto.html
--carrito   ---> productCart.html
--login     ---> login.html
--regisro  ---> register.html
