@@ -122,16 +122,16 @@ main {
 
 .goback-link {
   margin-left: 15px;
+  margin-bottom: 10px;
   color: #950000;
   font-weight: 400;
-  
 }
+
 .goback-link img{
   transform: translateY(2px);
   height: 1.3em;
   filter:invert(9%) sepia(73%) saturate(5980%) hue-rotate(358deg) brightness(89%) contrast(112%);
 }
-
 
 .goback-link a:visited,a:link,a:active{
   color: #950000
@@ -144,20 +144,17 @@ main {
 .filters {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content:space-between;
-}
-
-.goback-link {
-  margin-left: 15px;
 }
 
 .filtering, .sorting {
   border: 1px solid black;
   padding: 2px;
   border-radius: 5px;
-  margin: 15px;
-  
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
   width: 250px;
 }
 
@@ -273,6 +270,9 @@ main {
   height: 100%;
   border: 2px solid rgb(200, 200, 200);
   border-radius: 20px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../imgs/sport/run-update-2021-500x356-2.webp);
+  background-position: center;
+  background-size: cover;
 }
 
 .flex-dpii {
@@ -521,17 +521,17 @@ MEDIA QUERIES
   .filtering {
     position: relative;
     bottom: 30px;
-    left: 230px;
+    left: 340px;
   }
 
   .sorting {
     position: relative;
-    bottom: 78px;
-    left: 490px;
+    bottom: 72px;
+    left: 620px;
   }
 
   .grid-art {
-    margin-top: -80px;
+    margin-top: -50px;
   }
 }
 
