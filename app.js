@@ -42,6 +42,10 @@ app.get('/login', function(req, res){
     res.sendFile(path.join(__dirname, '/views/login.html'))
 });
 
+app.get('/registro', function(req, res){
+    res.sendFile(path.join(__dirname, '/views/register.html'))
+});
+
 app.listen (8000, () => {
     console.log ('Servidor corriendo en http://localhost:8000')
 })
