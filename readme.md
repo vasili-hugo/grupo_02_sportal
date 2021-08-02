@@ -49,7 +49,6 @@ PAGINAS EN PROCESO (algunos links de las primeras dos y del checkout funcionan)
 
 /  /home   ---> index.html
 /productos ---> productos.html ( y /productCats  --->  productCats.html, que es una version anterior)
-
 /producto  ---> producto.html
 /carrito   ---> productCart.html
 /login     ---> login.html
