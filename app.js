@@ -34,6 +34,10 @@ app.get('/producto', function(req, res){
     res.sendFile(path.join(__dirname, '/views/producto.html'))
 });
 
+app.get('/productos', function(req, res){
+    res.sendFile(path.join(__dirname, '/views/productos.html'))
+});
+
 app.get('/login', function(req, res){
     res.sendFile(path.join(__dirname, '/views/login.html'))
 });

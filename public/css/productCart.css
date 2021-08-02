@@ -139,7 +139,10 @@ main {
   filter:invert(9%) sepia(73%) saturate(5980%) hue-rotate(358deg) brightness(89%) contrast(112%);
 }
 
-.goback-link a:visited,a:link,a:active{
+
+.goback-link a:visited,
+.goback-link a:link,
+.goback-link a:active{
   color: #950000
 }
 
