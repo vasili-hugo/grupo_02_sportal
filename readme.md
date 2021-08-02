@@ -11,7 +11,7 @@ Pueden consumir para si mismos o comprar para un familiar directo, para apoyarlo
 **EQUIPO**
 --------------------------
 
-## Mariel Méndez
+## Mariel Méndez (abandona el curso antes de finalizar el primer sprint)
 Es profesora de Historia egresada de la Universidad Nacional de Tres de Febrero, donde cursó también la licenciatura. Combina la labor docente con tareas de gestión cultural, contando con 10 años de experiencia en instituciones públicas como Museo Evita, Complejo Teatral de BsAs/Teatro San Martín y el Museo Histórico Nacional. 
 
 ## Sergio Perin
@@ -45,4 +45,12 @@ REFERENCIAS CONSULTADAS PARA EL PROYECTO
 - Gap
 
 
+PAGINAS EN PROCESO (algunos links de las primeras dos y del checkout funcionan)
 
+/  /home   ---> index.html
+/productos ---> productos.html ( y /productCats  --->  productCats.html, que es una version anterior)
+
+/producto  ---> producto.html
+/carrito   ---> productCart.html
+/login     ---> login.html
+/register  ---> register.html
