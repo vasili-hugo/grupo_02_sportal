@@ -21,7 +21,7 @@ Consultoria, analisis, desarrollo de sistemas para usuarios finales y/o desarrol
 Lenguajes de programación: Assembler, PickBasic, C, VB, VB.Net, C#.Net desde 1986.
 
 ## Luciano De Palma
-Estudia ingeniería en computación en la Unviversidad de Tres de Febrero.
+Estudia ingeniería en computación en la Universidad Nacional de Tres de Febrero.
 Actualmente trabajando en atención al cliente en un comercio de indumentaria deportiva hace más de 10 años.
 
 ## Hugo Vasiliev
