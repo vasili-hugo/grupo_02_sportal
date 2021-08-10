@@ -16,6 +16,19 @@ body {
 HEADER
 ========================================================================================================================
 */
+header {
+    position: absolute;
+    height: 145px;
+    z-index: 100;
+}
+.back-template {
+    position: fixed;
+    z-index: 100;
+    height: 145px;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(240, 240, 240);
+}
 .header-bar {
     background-color: #950000;
     width: 100%;
@@ -24,6 +37,7 @@ HEADER
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 110;
     border-top-left-radius: 80px;
     border-top-right-radius: 80px;
 }
@@ -36,6 +50,7 @@ HEADER
     background-color: #950000;
     border-radius: 50%;
     width: 124px;
+    z-index: 110;
     height: 124px;
     left: 20px;
 }
@@ -43,6 +58,7 @@ HEADER
     position: fixed;
     top: 95px;
     left: 140px;
+    z-index: 110;
     font-size: 13px;
     color: #950000;
 }
@@ -51,6 +67,7 @@ HEADER
     position: fixed;
     top: 120px;
     left: 140px;
+    z-index: 110;
     width: 160px;
     margin-left: 0%;
 }
@@ -64,92 +81,75 @@ MAIN
 */
 main {
     position: absolute;
-    top: 180px;
+    top: 145px;
     width: 100%;
     max-width: 600px;
     font-weight: bold;
 }
-.form-login {
+.pass-advice{
+    color: #888;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.form-register {
     padding: 10px;
 }
-.form-login-check {
+.form-register-check {
     display: flex;
     flex-direction: column;
-    margin: 15px 40px;
+    margin: 0px 10px;
 }
-.form-login-check-bar {
+.form-register-check-bar {
     width: 100%;
     display: flex;
     margin: 10px;
 }
-.form-login-check i {
+.form-register-check-bar-user {
+    display: flex;
+    margin: 10px 15px;
+}
+.form-register-check-bar-user i {
+    margin: 5px 0px;
+}
+.form-register-check-bar-user label {
+    margin-left: 0px;
+    margin-right: 6px;
+}
+.form-register-check-bar-top {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+.form-register-check i {
     margin-left: 10px;
     font-size: 3em;
     font-weight: 10px;
 }
-.form-login-check-restore {
-    margin-top: -20px;
-    margin-right: 10%;
-}
-.form-login-check-restore a {
-    margin: none;
-    font-size: 12px;
-    color: #888;
-}
-.form-login form {
+.form-register form {
     display: flex;
     flex-direction: column;
 }
-.form-login form label {
+.form-register form label {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
     color: #950000;
 }
-.input-login {
+.input-register {
     border-radius: 50px;
-    width: 65vw;
+    width: 70vw;
     height: 30px;
-    max-width: 400px;
+    max-width: 435px;
     margin-top: 10px;
 }
-.e-mail-confirmed {
-    margin-right: 50px;
-    margin-top: 30px;
-}
-.e-mail-confirmed div {
-    margin: 0px;
+.form-register-check-divided {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-.e-mail-confirmed div i {
-    font-size: 2em;
-    color: red;
-    margin: 0px;
-}
-.e-mail-confirmed-check {
-    margin: 0px 5px;
-    color: #950000;
-    font-size: 20px;
-}
-.e-mail-confirmed-tip {
-    color: #888;
-    font-size: 12px;
-    margin: 5px 0px;
-}
-.login-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 40px;
-    align-items: flex-end;
-    width: 90%;
+    flex-direction: column;
 }
 .login-to-register {
     display: flex;
-    flex-direction: column;
-    width: 45%;
     margin: 5px 0px;
+    color: #888;
+    margin-left: 20px;
 }
 .login-to-register label {
     margin: 10px;
@@ -159,38 +159,37 @@ main {
     height: 40px;
     border-radius: 10px;
     margin: 10px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    width: 100%;
-}
-.login-buttons-login-button {
-    margin: 10px;
-    width: 45%;
-}
-.login-button {
-    height: 40px;
-    border-radius: 10px;
     background-color: #950000;
     color: white;
     font-weight: bold;
-    margin: 5px 0px;
     width: 100%;
+}
+.login-to-register i {
+    margin-top: 12px;
+    font-size: 20px;
 }
 /*
 ========================================================================================================================
-MAIN
+MEDIA
 ========================================================================================================================
 */
 @media (min-width: 600px) {
+    .form-register-check-divided .input-register {
+        width: 35vw;
+        max-width: 190px;
+    }
+    .form-register-check-divided {
+        flex-direction: row;
+    }
+    .input-register {
+        width: 80vw;
+        max-width: 475px;
+    }
+    .form-register-check-bar-user label {
+        margin-left: 5px;
+    }
     .header-options-login {
         top: 95px;
         left: 400px;
-    }
-    .input-login {
-        width: 75vw;
-    }
-    .form-login-check-restore {
-        margin-right: 16%;
     }
 }
