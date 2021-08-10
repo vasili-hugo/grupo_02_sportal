@@ -16,7 +16,7 @@ Es profesora de Historia egresada de la Universidad Nacional de Tres de Febrero,
 
 ## Sergio Perin
 Ingeniero Aeronáutico graduado en la Universidad Tecnológina Nacional (UTN) en 1985.</br>
-Posgrado en Ingeniería de Sistemas graduado en la Universidad de Buenos Aires en 1990.</br>
+Posgrado en Ingeniería de Sistemas graduado en la Universidad de Buenos Aires (UBA) en 1990.</br>
 Consultoria, analisis, desarrollo de sistemas para usuarios finales y/o desarrolladores.</br>
 Lenguajes de programación: Assembler, PickBasic, C, VB, VB.Net, C#.Net desde 1986.
 
